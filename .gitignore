@@ -1,0 +1,66 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ======================
+# Virtual environments
+# ======================
+venv/
+.env/
+env/
+.venv/
+
+# ======================
+# Jupyter Notebook checkpoints
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# PyTorch / Dataset folders
+# ======================
+
+# Common dataset directories
+data/
+datasets/
+dataset/
+data_raw/
+data_processed/
+
+# Torchvision downloaded datasets
+torch_datasets/
+torchvision_data/
+
+# Large files (optional but recommended)
+*.pt
+*.pth
+*.ckpt
+
+# Image datasets (optional)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# CSV / parquet datasets (optional)
+*.csv
+*.parquet
+
+# ======================
+# Logs
+# ======================
+logs/
+*.log
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
